@@ -1,0 +1,18 @@
+{
+  "name": "floating-clock",
+  "version": "1.0.0",
+  "description": "Clock for your Desktop",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "rm clock.json;electron-packager . clock --out dist --icon=clock.png --overwrite --platform=linux --arch=x64 --app-version=1.0.0"
+  },
+  "author": "FrostyCrits",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^3.0.5"
+  },
+  "dependencies": {
+    "howler": "^2.0.15"
+  }
+}

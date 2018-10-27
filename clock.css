@@ -1,0 +1,104 @@
+html, body {
+    -webkit-user-select: none;
+    background-color: rgb(5, 11, 19);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(11, 36, 46) 0%,rgb(5, 11, 19) 100%); /* Chrome10-25,Safari5.1-6 */
+    font-family: belgrano;
+    height:100%;
+    margin:0;
+    max-height: 120px;
+    overflow:hidden;
+}
+
+.accent0 {
+    color: rgba(36, 238, 252, 1);
+}
+
+.accent1 {
+    color: rgba(36, 238, 252, 0);
+}
+
+.am {
+    color: #f5ff6c;
+    font-size: 40px; 
+}
+
+.pm {
+    color: #4f80da;
+    font-size: 40px; 
+}
+
+.modes {
+    color: yellow;
+    font-size: 40px; 
+}
+
+.yellow {
+    color: yellow;
+}
+
+.gray {
+    color: rgb(131, 131, 131);
+}
+
+.dialog {
+    font-size: 17px; 
+    text-align: center;
+    line-height: 20px;
+    padding: 15px;
+    text-shadow: 2px 2px black;
+    vertical-align: middle;
+}
+
+.prompt {
+    font-size: 30px; 
+    margin-top:15px;
+    margin-right:20px;
+    margin-left:20px;
+    color: yellow;
+    padding-bottom: 1px;
+}
+
+
+.floating-box {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    width:  100%;
+    font-size: 50px; 
+    left: 0px;
+    line-height: 120px;
+    text-shadow: 2px 2px black;
+    top: 0px;
+    vertical-align: middle;
+}
+
+.floating-footer-box {
+    color: white;
+    cursor: pointer;
+    position: absolute;
+    text-align: center;
+    width:  100%;
+    font-size: 15px; 
+    background-color: #242424;
+    left: 0px;
+    height: 30px;
+    top: 120px;
+    vertical-align: bottom;
+}
+
+.footer-content {
+    color: white;
+    cursor: pointer;
+    position: relative;
+    text-align: center;
+    width:  100%;
+    font-size: 15px; 
+    background-color: #242424;
+    top:0px;
+    left: -340px;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: bottom;
+    pointer-events: none;
+}
