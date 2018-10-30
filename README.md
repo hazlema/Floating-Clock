@@ -5,6 +5,6 @@ Built with Electron and NodeJS
 - Audible Alerts
   
 **Pre-Pckaged files:**<br>
-http://www.hazlema.us/wp/2018/10/27/desktop-clock/
+https://hazlema.us/index.php/2018/10/30/desktop-clock/
 
 ![Screencast](gfx/Screencast.gif)
