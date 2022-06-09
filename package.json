@@ -4,7 +4,7 @@
   "description": "Clock for your Desktop",
   "main": "index.js",
   "scripts": {
-    "start": "electron .",
+    "start": "node_modules/electron/dist/electron .",
     "build": "rm clock.json;electron-packager . clock --out dist --icon=clock.png --overwrite --platform=linux --arch=x64 --app-version=1.0.0",
     "build-all": "rm clock.json;electron-packager . clock --out dist --icon=clock.png --overwrite --all --app-version=1.0.0"
   },

@@ -38,7 +38,7 @@ function updateTime() {
         hrs = (time.getHours()-12).toString();
     }
 
-    if (hrs == "0") hrs = "1";
+    if (hrs == "0") hrs = "12";
     if (min.length == 1) min = '0' + min;
     if (sec.length == 1) sec = '0' + sec;
     
