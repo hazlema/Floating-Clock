@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require('electron');
 const fs       = require("fs");
 const path     = require('path');
 const cfg_file = path.join(__dirname, 'clock.json');
-const isDebug  = true;
+const isDebug  = false;
 
 let win;
 var opts = {};
@@ -20,7 +20,7 @@ var winOpts = {
 }
 
 if (!isDebug) {
-    winOpts['resizable'] = true;
+    winOpts['resizable'] = false;
 } else {
     winOpts['height'] = 400; 
 
