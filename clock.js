@@ -51,7 +51,7 @@ function updateTime() {
  */
 function updateDate() {
     var date = new Date();
-    var mth  = date.getMonth().toString();
+    var mth  = (date.getMonth()+1).toString();
     var day  = date.getDate().toString();
     var yer  = date.getFullYear().toString();
     var ndx  = date.getSeconds() % 2;

@@ -3,7 +3,7 @@ const { app, BrowserWindow } = require('electron');
 const fs       = require("fs");
 const path     = require('path');
 const cfg_file = path.join(__dirname, 'clock.json');
-const isDebug  = false;
+const isDebug  = true;
 
 let win;
 var opts = {};
@@ -12,11 +12,15 @@ var winOpts = {
     width: 340, 
     height: 120, 
     alwaysOnTop: true, 
-    icon: path.join(__dirname, "sound", 'clock.png')
+    icon: path.join(__dirname, "sound", 'clock.png'),
+    webPreferences: {
+        nodeIntegration: true,
+        contextIsolation: false
+    }
 }
 
 if (!isDebug) {
-    winOpts['resizable'] = false;
+    winOpts['resizable'] = true;
 } else {
     winOpts['height'] = 400; 
 

@@ -8,10 +8,10 @@
     "build": "rm clock.json;electron-packager . clock --out dist --icon=clock.png --overwrite --platform=linux --arch=x64 --app-version=1.0.0",
     "build-all": "rm clock.json;electron-packager . clock --out dist --icon=clock.png --overwrite --all --app-version=1.0.0"
   },
-  "author": "FrostyCrits",
+  "author": "Frosty",
   "license": "MIT",
   "devDependencies": {
-    "electron": "^3.0.5"
+    "electron": "^25.1.0"
   },
   "dependencies": {
     "howler": "^2.0.15"
